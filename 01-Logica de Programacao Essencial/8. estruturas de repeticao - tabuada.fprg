@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Bruno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-05-07 12:34:48 "/>
+        <attribute name="created" value="QnJ1bm87REVTS1RPUC1GUEoyTDNOOzIwMjEtMDUtMDc7IjEyOjIwOjU4ICI7Mjc3MA=="/>
+        <attribute name="edited" value="QnJ1bm87REVTS1RPUC1GUEoyTDNOOzIwMjEtMDUtMDc7IjEyOjM0OjQ4ICI7MjsyODgz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="multiplicando, multiplicador" type="Integer" array="False" size=""/>
+            <assign variable="multiplicando" expression="9"/>
+            <assign variable="multiplicador" expression="1"/>
+            <while expression="multiplicador&lt;=10">
+                <output expression="&quot;Resultado: &quot; &amp; multiplicando &amp; &quot;x&quot; &amp; multiplicador &amp; &quot; = &quot; &amp; multiplicando*multiplicador" newline="True"/>
+                <assign variable="multiplicador" expression="multiplicador+1"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>
