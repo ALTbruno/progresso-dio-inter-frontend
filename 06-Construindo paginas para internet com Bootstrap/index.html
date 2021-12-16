@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">    
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="./img/logo.png" alt="Logo" height="100px" width="350"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#quemSomos">Quem somos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#parceiros">Parceiros</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Serviços
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">IoT</a></li>
+                    <li><a class="dropdown-item" href="#">Machine Learning</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#contato">Contato</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled">Disabled</a>
+                </li>
+              </ul>
+              <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="O que você procura?" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Procurar</button>
+              </form>
+            </div>
+          </div>
+    </nav>
+    <section id="quemSomos">
+        <div class="container-fluid quemSomos text-center">
+            <h3>Quem somos</h3>
+            <img class="rounded-circle" src="https://images.pexels.com/photos/8134189/pexels-photo-8134189.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Pessoas" width="600px" height="600px">
+            <h4>Somos um time comprometido com os rsultados.</h4>
+        </div>
+    </section>
+    <section id="parceiros">
+        <div class="container-fluid text-center parceiros">
+            <h3>Parceiros</h3>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <img src="https://yt3.ggpht.com/qMPyLWsg6kipqVXeVUmusXfNABJGAWignNcYfS7jlEXLsD44PU3dVSFlf8e4sMXTAJKExbDREw=s900-c-k-c0x00ffffff-no-rj" alt="Logo da DIO" width="100%">
+                    </div>
+                    <div class="col-lg-4">
+                        <img src="https://yt3.ggpht.com/qMPyLWsg6kipqVXeVUmusXfNABJGAWignNcYfS7jlEXLsD44PU3dVSFlf8e4sMXTAJKExbDREw=s900-c-k-c0x00ffffff-no-rj" alt="Logo da DIO" width="100%">
+                    </div>
+                    <div class="col-lg-4">
+                        <img src="https://yt3.ggpht.com/qMPyLWsg6kipqVXeVUmusXfNABJGAWignNcYfS7jlEXLsD44PU3dVSFlf8e4sMXTAJKExbDREw=s900-c-k-c0x00ffffff-no-rj" alt="Logo da DIO" width="100%">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="servicos">
+        <div class="container-fluid text-center servicos">
+            <h3>Serviços</h3>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
+                        <img src="https://media.istockphoto.com/photos/internet-of-things-wireless-communication-network-abstract-image-picture-id1184401187" alt="" width="100%">
+                    </div>
+                    <div class="col-lg-6">
+                        <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
+                        <img src="https://media.istockphoto.com/photos/presentation-about-machine-learning-technology-scientist-touching-picture-id844535726" alt="" width="100%">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="container-fluid text-center bg-footer" id="contato">
+        <p>Desenvolvido por Bruno Barbosa</p>
+    </footer>
+
+    <script src="./bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
