@@ -1,0 +1,28 @@
+body{
+    background-color: gray;
+}
+
+.post{
+    background-color: orange;
+    background-position: top;
+    padding: 10px;
+    padding-top: 15px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-left: 0;
+    border: 3px solid blue;
+    border-top: 2px dotted green;
+    border-right: 4px dashed pink;
+    border-bottom: 1px solid purple;
+    border-left: 4px dotted cyan;
+    margin: 10px;
+}
+
+#title, .subtitle, .post_title {
+    color: blue;
+}
+
+.post_title{
+    font-size: 16px;
+    font-style: italic;
+}
